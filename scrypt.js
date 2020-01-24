@@ -68,11 +68,13 @@ btnScore.addEventListener("click" , function(){
 function gametime(){
 
     var timeinterval = setInterval(function(){
-        timer.innerText = count
-         count
+        timer.innerText = count;
+         count--;
         }, 1000);
-
+        console.log(count);
 }
+
+
 
 function scorePage(a, b) {
 
